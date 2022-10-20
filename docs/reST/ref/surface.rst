@@ -177,7 +177,7 @@
       creating per-pixel alphas.
 
       The new copy will have the same class as the copied surface. This lets
-      as Surface subclass inherit this method without the need to override,
+      a Surface subclass inherit this method without the need to override,
       unless subclass specific instance attributes also need copying.
 
       .. ## Surface.convert ##
@@ -220,7 +220,7 @@
       | :sg:`fill(color, rect=None, special_flags=0) -> Rect`
 
       Fill the Surface with a solid color. If no rect argument is given the
-      entire Surface will be filled. The rect argument will limit the fill to a
+      entire Surface will be filled. The rect argument will limit thes  fill to a
       specific area. The fill will also be contained by the Surface clip area.
 
       The color argument can be either a ``RGB`` sequence, a ``RGBA`` sequence
